@@ -45,8 +45,8 @@ function assert(expression, failureMessage) {
  That will help later when you run jscs.
 */
 
-assert(1 === 1, '1 equals 1 - this assert will pass.');
-assert(1 === 2, 'this is an example of a failing assertion. 1 does not equal 2.');
+//assert(1 === 1, '1. 1 equals 1 - this assert will pass.');
+//assert(1 === 2, '2. asserting that 1 does not strictly equal 2.');
 
 /* ===========================================================================
 ------------------Assertions (8 points total)---------------------------------
@@ -59,39 +59,51 @@ assert(1 === 2, 'this is an example of a failing assertion. 1 does not equal 2.'
  it failed.
 */
 
-//your code goes here
+var tiger = {
+eyes: 2,
+hasTail: true,
+weight: 100,
+inCage: false
+};
 
+//Creat an expression that evaluates to true
+assert(tiger.hasTail === true, '3. Should assert true since tiger does have a tail');
+//expression that comes out false
+assert(tiger.inCage === true, '4. Should evaluate false as tiger is not in his cage. Oh no, go find him!');
+//your code goes here
 /* ========================================================================
 ----------------- Meerkats (20 points total)-------------------------------
 ===========================================================================
  Meerkats make a sort of chirping noise (according to my 30 seconds of
  research).  We're going to translate two sentences into meerkat speech.
 */
-
 var sentence1 = 'More food please.';
 var sentence2 = 'Come over here so you can scratch my belly.';
-
 /*
  Your goal is to replace the words in the above sentences with 'chirp' The
  assertions at the end of this section should pass when you're done.
  HINT: the 'split' method on String will be useful.
 */
-
 // TODO: part #1: use a for loop to replace the words in sentence 1 with
 // 'chirp' (10 points)
-
 // your code goes here
-
+var temp1 = sentence1.split(' ');
+for (var i = 0; i < temp1.length; i++) {
+  temp1[i] = 'chirp';
+}
+sentence1 = temp1.join(' ') + '.';
 // TODO: part #2: use a while or do-while loop to replace the words in sentence 2
 // with 'chirp' (10 points)
-
 // your code goes here
-
+var temp2 = sentence2.split(' ');
+for (var i = 0; i < temp2.length; i++) {
+  temp2[i] = 'chirp';
+}
+sentence2 = temp2.join(' ') + '.';
 // Leave these assertions as-is! If they pass, your code works.
 assert(sentence1 === 'chirp chirp chirp.', 'sentence 1 should have 3 chirps');
 assert(sentence2 === 'chirp chirp chirp chirp chirp chirp chirp chirp chirp.',
   'sentence 2 should have 9 chirps');
-
 /* ========================================================================
 ----------------- Favorite Animals (10 points)-----------------------------
 ===========================================================================
@@ -100,15 +112,17 @@ assert(sentence2 === 'chirp chirp chirp chirp chirp chirp chirp chirp chirp.',
  to see next.
  Hint: read the Math.random description on MDN.
 */
-
 var favoriteAnimals = ['elephant', 'penguin', 'eagle', 'camel'];
 var nextAnimal;
-
 // TODO: 10 points
 // Assign one of your favorite animals to nextAnimal using Math.random() to pick
-
 // your code goes here
-
+//use math random to choose a random number. then multiply it by favorite animals length. then get the math floor of that. this should get a random whole number between 0 and 3
+//make a function that assigned a random animal to nextAnimal
+var randomAnimal = function() {
+  nextAnimal = favoriteAnimals[Math.floor(Math.random() * favoriteAnimals.length)];
+};
+randomAnimal();
 assert(nextAnimal, 'assign something to nextAnimal');
 
 /* =====================================================================
@@ -124,32 +138,28 @@ assert(nextAnimal, 'assign something to nextAnimal');
 // don't require quotes for the code to work. Remove the unnecessary quotes.
 
 var animalExhibitStats = {
-  'numberOpen': 13,
+  numberOpen: 13,
   'number closed': 2,
   'petting-zoo-open': true,
-  'mostPopular': 'Lucky the Emperor Penguin',
+  mostPopular: 'Lucky the Emperor Penguin',
   '2ndMostPopular': 'Dumbo the Depressed Donkey'
 };
-
 /*
  TODO: 4 points
  The animalExhibitStats object is indexed four times below using bracket
  notation. WITHOUT changing any of the property names, replace the bracket
  notation with dot notation wherever possible.
 */
-
-assert(animalExhibitStats['numberOpen'] === 13, 'there should be 13 open exhibits');
+assert(animalExhibitStats.numberOpen === 13, 'there should be 13 open exhibits');
 assert(animalExhibitStats['number closed'] === 2, 'there should be 2 closed exhibits');
 assert(animalExhibitStats['petting-zoo-open'], 'hey! =( i was promised meerkats!');
 assert(animalExhibitStats['2ndMostPopular'] === 'Dumbo the Depressed Donkey',
   'Dumbo is supposed to be second place, as usual');
-
 // TODO: 4 points
 // Write an assert about the 'mostPopular' property of animalExibitStats.
 // Use the above examples to guide you.
-
 // your assert goes here
-
+assert(animalExhibitStats.mostPopular === 'Dumbo the Depressed Donkey', 'This should fail, Dumbo is #2');
 /* ==================================================================
 ----------------- Code Style (10 points) ----------------------------
 =====================================================================
