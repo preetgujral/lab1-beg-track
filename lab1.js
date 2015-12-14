@@ -119,6 +119,8 @@ var nextAnimal;
 // your code goes here
 //use math random to choose a random number. then multiply it by favorite animals length. then get the math floor of that. this should get a random whole number between 0 and 3
 //make a function that assigned a random animal to nextAnimal
+//todo - make next Animal global
+
 var randomAnimal = function() {
   nextAnimal = favoriteAnimals[Math.floor(Math.random() * favoriteAnimals.length)];
 };

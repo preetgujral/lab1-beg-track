@@ -1,0 +1,344 @@
+[4mRunning "jshint:files" (jshint) task[24m
+[32m>> [39m1 file lint free.
+
+[4mRunning "jscs:src" (jscs) task[24m
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m   68 |[39m
+ [90m   69 |[39m//Creat an expression that evaluates to true
+ [90m   70 |[39massert(tiger.hasTail === true, "3. Should assert true since tiger does have a tail");
+[90m---------------------------------------^[39m
+ [90m   71 |[39m
+ [90m   72 |[39m
+[1mMultiple line break[22m at [32mlab1.js[39m :
+ [90m   70 |[39massert(tiger.hasTail === true, "3. Should assert true since tiger does have a tail");
+ [90m   71 |[39m
+ [90m   72 |[39m
+[90m--------^[39m
+ [90m   73 |[39m
+ [90m   74 |[39m//expression that comes out false
+[1mMultiple line break[22m at [32mlab1.js[39m :
+ [90m   76 |[39m
+ [90m   77 |[39m//your code goes here
+ [90m   78 |[39m
+[90m--------^[39m
+ [90m   79 |[39m
+ [90m   80 |[39m/* ========================================================================
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m   97 |[39m// 'chirp' (10 points)
+ [90m   98 |[39m// your code goes here
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+[90m-----------------^[39m
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+ [90m  101 |[39mtemp1[i]="chirp";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m   97 |[39m// 'chirp' (10 points)
+ [90m   98 |[39m// your code goes here
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+[90m-----------------^[39m
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+ [90m  101 |[39mtemp1[i]="chirp";
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m   97 |[39m// 'chirp' (10 points)
+ [90m   98 |[39m// your code goes here
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+[90m----------------------------------^[39m
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+ [90m  101 |[39mtemp1[i]="chirp";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m   98 |[39m// your code goes here
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+[90m------------------^[39m
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m   98 |[39m// your code goes here
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+[90m------------------^[39m
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+[1mOperator < should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m   98 |[39m// your code goes here
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+[90m----------------------^[39m
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+[1mOperator < should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m   98 |[39m// your code goes here
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+[90m----------------------^[39m
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+[1mExpected indentation of 2 characters[22m at [32mlab1.js[39m :
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+ [90m  101 |[39mtemp1[i]="chirp";
+[90m----------^[39m
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+ [90m  101 |[39mtemp1[i]="chirp";
+[90m----------------^[39m
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+ [90m  101 |[39mtemp1[i]="chirp";
+[90m----------------^[39m
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m   99 |[39mvar temp1=sentence1.split(" ");
+ [90m  100 |[39mfor (var i=0;i<temp1.length;i++) {
+ [90m  101 |[39mtemp1[i]="chirp";
+[90m-----------------^[39m
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[90m-----------------^[39m
+ [90m  104 |[39m
+ [90m  105 |[39m
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[90m-----------------^[39m
+ [90m  104 |[39m
+ [90m  105 |[39m
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[90m-----------------------------^[39m
+ [90m  104 |[39m
+ [90m  105 |[39m
+[1mOperator + should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[90m---------------------------------^[39m
+ [90m  104 |[39m
+ [90m  105 |[39m
+[1mOperator + should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[90m---------------------------------^[39m
+ [90m  104 |[39m
+ [90m  105 |[39m
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m  101 |[39mtemp1[i]="chirp";
+ [90m  102 |[39m}
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+[90m----------------------------------^[39m
+ [90m  104 |[39m
+ [90m  105 |[39m
+[1mMultiple line break[22m at [32mlab1.js[39m :
+ [90m  103 |[39msentence1=temp1.join(" ")+".";
+ [90m  104 |[39m
+ [90m  105 |[39m
+[90m--------^[39m
+ [90m  106 |[39m
+ [90m  107 |[39m// TODO: part #2: use a while or do-while loop to replace the words in sentence 2
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  109 |[39m
+ [90m  110 |[39m// your code goes here
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+[90m-----------------^[39m
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+ [90m  113 |[39mtemp2[i]="chirp";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  109 |[39m
+ [90m  110 |[39m// your code goes here
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+[90m-----------------^[39m
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+ [90m  113 |[39mtemp2[i]="chirp";
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m  109 |[39m
+ [90m  110 |[39m// your code goes here
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+[90m----------------------------------^[39m
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+ [90m  113 |[39mtemp2[i]="chirp";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  110 |[39m// your code goes here
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+[90m------------------^[39m
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  110 |[39m// your code goes here
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+[90m------------------^[39m
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+[1mOperator < should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  110 |[39m// your code goes here
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+[90m----------------------^[39m
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+[1mOperator < should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  110 |[39m// your code goes here
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+[90m----------------------^[39m
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+[1mExpected indentation of 2 characters[22m at [32mlab1.js[39m :
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+ [90m  113 |[39mtemp2[i]="chirp";
+[90m----------^[39m
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+ [90m  113 |[39mtemp2[i]="chirp";
+[90m----------------^[39m
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+ [90m  113 |[39mtemp2[i]="chirp";
+[90m----------------^[39m
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m  111 |[39mvar temp2=sentence2.split(" ");
+ [90m  112 |[39mfor (var i=0;i<temp2.length;i++) {
+ [90m  113 |[39mtemp2[i]="chirp";
+[90m-----------------^[39m
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[90m-----------------^[39m
+ [90m  116 |[39m
+ [90m  117 |[39m
+[1mOperator = should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[90m-----------------^[39m
+ [90m  116 |[39m
+ [90m  117 |[39m
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[90m-----------------------------^[39m
+ [90m  116 |[39m
+ [90m  117 |[39m
+[1mOperator + should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[90m---------------------------------^[39m
+ [90m  116 |[39m
+ [90m  117 |[39m
+[1mOperator + should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[90m---------------------------------^[39m
+ [90m  116 |[39m
+ [90m  117 |[39m
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m  113 |[39mtemp2[i]="chirp";
+ [90m  114 |[39m}
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+[90m----------------------------------^[39m
+ [90m  116 |[39m
+ [90m  117 |[39m
+[1mMultiple line break[22m at [32mlab1.js[39m :
+ [90m  115 |[39msentence2=temp2.join(" ")+".";
+ [90m  116 |[39m
+ [90m  117 |[39m
+[90m--------^[39m
+ [90m  118 |[39m
+ [90m  119 |[39m// Leave these assertions as-is! If they pass, your code works.
+[1mExpected indentation of 2 characters[22m at [32mlab1.js[39m :
+ [90m  141 |[39m//make a function that assigned a random animal to nextAnimal
+ [90m  142 |[39mvar randomAnimal = function() {
+ [90m  143 |[39mnextAnimal = favoriteAnimals[Math.floor(Math.random()*favoriteAnimals.length)];
+[90m----------^[39m
+ [90m  144 |[39m};
+ [90m  145 |[39mrandomAnimal();
+[1mOperator * should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  141 |[39m//make a function that assigned a random animal to nextAnimal
+ [90m  142 |[39mvar randomAnimal = function() {
+ [90m  143 |[39mnextAnimal = favoriteAnimals[Math.floor(Math.random()*favoriteAnimals.length)];
+[90m-------------------------------------------------------------^[39m
+ [90m  144 |[39m};
+ [90m  145 |[39mrandomAnimal();
+[1mOperator * should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  141 |[39m//make a function that assigned a random animal to nextAnimal
+ [90m  142 |[39mvar randomAnimal = function() {
+ [90m  143 |[39mnextAnimal = favoriteAnimals[Math.floor(Math.random()*favoriteAnimals.length)];
+[90m-------------------------------------------------------------^[39m
+ [90m  144 |[39m};
+ [90m  145 |[39mrandomAnimal();
+[1mOperator === should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  185 |[39m
+ [90m  186 |[39m// your assert goes here
+ [90m  187 |[39massert(animalExhibitStats.mostPopular==="Dumbo the Depressed Donkey","This should fail, Dumbo is #2");
+[90m----------------------------------------------^[39m
+ [90m  188 |[39m
+ [90m  189 |[39m
+[1mOperator === should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  185 |[39m
+ [90m  186 |[39m// your assert goes here
+ [90m  187 |[39massert(animalExhibitStats.mostPopular==="Dumbo the Depressed Donkey","This should fail, Dumbo is #2");
+[90m----------------------------------------------^[39m
+ [90m  188 |[39m
+ [90m  189 |[39m
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m  185 |[39m
+ [90m  186 |[39m// your assert goes here
+ [90m  187 |[39massert(animalExhibitStats.mostPopular==="Dumbo the Depressed Donkey","This should fail, Dumbo is #2");
+[90m------------------------------------------------^[39m
+ [90m  188 |[39m
+ [90m  189 |[39m
+[1mOperator , should not stick to following expression[22m at [32mlab1.js[39m :
+ [90m  185 |[39m
+ [90m  186 |[39m// your assert goes here
+ [90m  187 |[39massert(animalExhibitStats.mostPopular==="Dumbo the Depressed Donkey","This should fail, Dumbo is #2");
+[90m----------------------------------------------------------------------------^[39m
+ [90m  188 |[39m
+ [90m  189 |[39m
+[1mInvalid quote mark found[22m at [32mlab1.js[39m :
+ [90m  185 |[39m
+ [90m  186 |[39m// your assert goes here
+ [90m  187 |[39massert(animalExhibitStats.mostPopular==="Dumbo the Depressed Donkey","This should fail, Dumbo is #2");
+[90m-----------------------------------------------------------------------------^[39m
+ [90m  188 |[39m
+ [90m  189 |[39m
+[1mMultiple line break[22m at [32mlab1.js[39m :
+ [90m  186 |[39m// your assert goes here
+ [90m  187 |[39massert(animalExhibitStats.mostPopular==="Dumbo the Depressed Donkey","This should fail, Dumbo is #2");
+ [90m  188 |[39m
+[90m--------^[39m
+ [90m  189 |[39m
+ [90m  190 |[39m/* ==================================================================
+[31m>> [39m48 code style errors found!
+[33mWarning: Task "jscs:src" failed. Use --force to continue.[39m
+
+[31mAborted due to warnings.[39m
